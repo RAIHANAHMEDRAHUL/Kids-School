@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+  }
+  /* nav related styles */
+.link{
+    list-style: none;
+}
+
+
+.link a{
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.logo-con{
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.logo{
+    max-width: 200px;
+    align-items: center;
+}
+.logo span{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;   
+    }
+
+.li-1{
+color: orange;
+}
+.li-2{
+color: skyblue;
+}
+.li-3{
+color: rgba(5, 212, 223, 1);
+}
+.li-4{
+color: rgba(93, 88, 239, 1);
+}
+.menu{
+    display:none ;
+
+}
+/* banner styles */
+.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.ba-con{
+    max-width: 640px;
+}
+.ba-ti{ 
+    font-weight:700 ;
+    font-size:3.5rem ;
+}
+.s-1{
+    color: orange;
+}
+.s-2{
+    color: black;
+}
+.s-3{
+    color:skyblue ;
+}
+.ba-des{
+    font-size: 1.25rem;
+    color: black;
+}
+.hero-img img{
+
+}
+/* standard curriculalm styles */
+.curriculum{}
+
+.sec-ti{
+font-size:2.875rem;
+font-weight: 700;
+}
+.card-con{
+
+}
+.card{
+    width: 367.8px;
+    height: 476.78px;
+    border: 1px solid black;
+}
+.card-1{
+
+}
+.card-2{
+
+}
+.card-3{
+
+}
+.c-ti{
+
+}
+.c-des{
+
+}
+.more-1{
+
+}
+.more-2{
+
+}
+.more-3{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  /* ******* */
+  /* shared styles */
+.flex{
+    display: flex;
+}
+.btn-py{
+    background-color:#FEA301;
+    color:#ffffff;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    border: none;
+    width: 197px;
+    height: 50px;
+    margin: auto 0;
+}
+.btn-py-2{
+    background-color:black;
+    color:#ffffff;
+    padding: 10px 10px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    border: none;
+    width: 197px;
+    height: 50px;
+    margin: auto 0;
+}
+.max-width{
+    max-width: 1440px;
+}
+.bo{
+    border: 1px solid black;
+}
+.bac-img{
+    background-image: url(../assets/bg.png);
+}
+.size{
+    font-size: 1.25rem;
+}
+
+  /* ***** */
+  /* respose styles */
+
+  @media screen and (max-width:576px) {
+    .navbar{
+        border-bottom: 1px solid orange;
+    }
+
+    .logo-con{
+        padding-bottom: 5px;
+    }
+    .link,.b-1 ,.logo span {
+        display: none;
+    }
+    .menu{
+        display:block;
+        width: 40px;
+        height: 40px;
+        margin: auto 0;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .ba-con{
+        text-align: center;
+    }
+  }
