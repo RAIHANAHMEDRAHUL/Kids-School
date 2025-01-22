@@ -336,7 +336,11 @@ gap: 20px;
 .foot{
     max-width: 1440px;
     margin: 0 auto;
-    height: px;
+    height: 520px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
 }
 .intro{
     
@@ -391,7 +395,13 @@ text-align: left;
 .school-des a{
     text-decoration: none;
 }
-
+.social-ti{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 1.625rem;
+font-weight: 700;
+text-align: left;
+}
 
 
 
