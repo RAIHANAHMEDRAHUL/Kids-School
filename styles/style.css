@@ -336,11 +336,11 @@ gap: 20px;
 .foot{
     max-width: 1440px;
     margin: 0 auto;
-    height: 520px;
     display: grid;
     grid-template-columns:repeat(3,1fr);
-    align-items: center;
     justify-items: center;
+    padding-top:80px ;
+    padding-bottom:80px ;
 }
 .intro{
     
@@ -400,7 +400,8 @@ text-align: left;
 font-family: Quicksand;
 font-size: 1.625rem;
 font-weight: 700;
-text-align: left;
+
+
 }
 
 
@@ -505,6 +506,12 @@ text-align: left;
     }
     #view{
         margin-top: 40px;
+    }
+    .foot{
+        justify-items: left;
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 10px;
+
     }
    
   }
